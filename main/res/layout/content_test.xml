@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TestActivity"
+    tools:showIn="@layout/activity_test">
+
+    <ImageView
+        android:id="@+id/imageXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/axis_device" />
+
+    <TextView
+        android:id="@+id/xTextXML"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageXML" />
+
+    <TextView
+        android:id="@+id/yTextXML"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="64dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageXML" />
+
+    <TextView
+        android:id="@+id/zTextXML"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="112dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageXML" />
+
+    <TextView
+        android:id="@+id/absTextXML"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="160dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageXML" />
+
+    <TextView
+        android:id="@+id/absDataXML"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="160dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageXML" />
+
+    <TextView
+        android:id="@+id/xDataXML"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageXML" />
+
+    <TextView
+        android:id="@+id/yDataXML"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="64dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageXML" />
+
+    <TextView
+        android:id="@+id/zDataXML"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="112dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageXML" />
+
+</android.support.constraint.ConstraintLayout>
